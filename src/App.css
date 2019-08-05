@@ -1,33 +1,53 @@
-.App {
-  text-align: center;
+.main {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #f16059;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.title {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.timeHeader {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    margin-bottom: -45px;
 }
 
-.App-link {
-  color: #61dafb;
+.time {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bungee', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imageContainer {
+    text-align: center;
+    color: white;
+}
+
+.image {
+    width: 50%;
+}
+
+.text {
+    margin: -60px 0 100px 0;
+    font: 2em/1em 'Open Sans', sans-serif;
+}
+
+.timeSetting {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center
+}
+
+.optionSelection {
+    text-align: center;
 }
